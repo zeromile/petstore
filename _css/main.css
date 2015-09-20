@@ -1,0 +1,60 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+   font-family:Arial;
+   padding:20px 100px 20px 100px;
+   margin:0px;
+   font-size:60px;
+   background-color:#eee;
+}
+
+h2,h3 {
+   font-family:Arial;
+   margin:20px 100px 20px 100px;
+   padding:0px;
+}
+
+p{
+   padding:0px;
+   margin:20px 100px 20px 100px;
+}
+
+#nav {
+    padding:10px 100px 10px 100px;
+    background-color:gray;
+    margin:0px;
+    font-family:Arial;
+}
+
+#nav li {
+    display: inline;
+    margin-right:10px;
+}
+
+nav {
+    padding:10px 100px 10px 100px;
+    background-color:gray;
+    margin:0px;
+    font-family:Arial;
+    display:block; /* fallback in case browser does not support nav tag */
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:30px;
+}
+
+nav a:hover{
+    color:red;
+    text-decoration:none;
+    margin-right:30px;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
